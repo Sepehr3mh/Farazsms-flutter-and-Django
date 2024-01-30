@@ -1,0 +1,30 @@
+https://github.com/Sepehr3mh
+
+
+sms package flutter + Django => farazsms
+
+--------------------------------------------------------------------------
+flutter version: 3.16.3
+cd sms_login_flutter -- cd lib -- cd main.dart
+
+
+If you use the simulator and want to work on the local Django server, the server address should be as below
+	('http://10.0.2.2:8000/send-message/')
+
+
+
+Installed packages in flutter:
+	(http/http.dart)
+
+--------------------------------------------------------------------------
+python version: 3.12.1
+cd sms_login_Django -- cd sms_back -- cd views.py
+
+
+If you are using an emulator, put the following code in the settings.py
+	ALLOWED_HOSTS = ['10.0.2.2', 'localhost', '127.0.0.1']
+
+
+Installed packages in jango:
+	(requests)
+--------------------------------------------------------------------------
